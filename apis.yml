@@ -1,8 +1,26 @@
 aid: intellimize
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/intellimize.png
 name: Intellimize
-description: 'Intellimize is a company surfaced as a portfolio company of amplify-partners and added to
-  the API Evangelist network as a stub for enrichment. Sector: ai-ml. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Intellimize was an AI-powered website optimization, personalization, and conversion-rate
+  optimization platform (an amplify-partners portfolio company in the ai-ml sector) that let marketing
+  teams continuously test and machine-learn the best-performing landing-page and website experience for
+  each visitor. It was acquired by Webflow in 2024 and folded into the Webflow Optimize product; the
+  entire intellimize.com domain now 301-redirects to webflow.com/feature/optimize. As a standalone brand
+  Intellimize no longer operates an independent developer portal, public API, documentation, or SDK
+  surface — enrichment therefore found no OpenAPI, packages, well-known documents, MCP server, or
+  security/trust program of its own. Only live domain-security posture for the retained intellimize.com
+  domain could be probed.'
 url: https://raw.githubusercontent.com/api-evangelist/intellimize/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,19 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+x-status: acquired
+x-acquired-by: webflow
+x-redirects-to: https://webflow.com/feature/optimize
 tags:
 - Company
 - Ai Ml
+- Website Optimization
+- Personalization
+- Conversion Rate Optimization
+- A/B Testing
+- Marketing
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +50,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/intellimize-domain-security.yml
 - type: Website
   url: https://intellimize.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
