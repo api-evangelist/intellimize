@@ -61,6 +61,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/webflow/
+  name: Webflow
+  x-relationship: acquired
+  x-evidence: "It was acquired by Webflow in 2024 and folded into the Webflow Optimize product; the entire intellimize."
 - type: DomainSecurity
   url: security/intellimize-domain-security.yml
 - type: Website
