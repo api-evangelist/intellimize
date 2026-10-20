@@ -1,11 +1,21 @@
-generated: '2026-10-15'
+generated: '2026-10-20'
 method: searched
+source:
+- shopify/integrations/shopify-integration-edges.yml
+- https://zapier.com/apps/intellimize/integrations
+- https://n8n.io/integrations/intellimize/
+- https://composio.dev/toolkits/intellimize
+- https://monid.ai/tools/intellimize
 checked:
 - https://cloudsecurityalliance.org/star/registry
 - https://eucoc.cloud/en/public-register/list-of-adherent-services
 - shopify/integrations/shopify-integration-edges.yml
-source:
-- shopify/integrations/shopify-integration-edges.yml
+- https://composio.dev/toolkits/intellimize
+- https://monid.ai/tools/intellimize
+- https://n8n.io/integrations/intellimize/
+- https://zapier.com/apps/intellimize/integrations
+summary: null
+marketplace_apps: []
 edges:
 - partner_name: Shopify (own)
   partner: shopify
@@ -55,3 +65,4 @@ edges:
     detected: '2026-10-20'
   detected_by: sweep-compliance-assurance.py
   first_seen: '2026-10-20'
+templates: []
